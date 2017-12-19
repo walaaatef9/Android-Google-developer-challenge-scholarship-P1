@@ -3,4 +3,5 @@
     <dimen name="scale">20dp</dimen>
     <dimen name="zero">0dp</dimen>
     <dimen name="one">1</dimen>
+    <dimen name="nine">9dp</dimen>
 </resources>
