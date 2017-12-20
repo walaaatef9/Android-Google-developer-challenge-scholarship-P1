@@ -25,27 +25,13 @@
         android:layout_marginLeft="@dimen/scale"
         android:layout_marginBottom="@dimen/scale"
         android:textColor="@android:color/black"
-        android:fontFamily="@item/mainFont"
+        android:fontFamily="sans-serif"
         android:drawableLeft="@drawable/udacity"
         android:drawablePadding="@dimen/nine"
         android:singleLine="true"
         android:gravity="center"
-        android:text="udacity"
+        android:text="@string/text1"
 
-         />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/zero"
-        android:layout_marginLeft="@dimen/scale"
-        android:layout_marginBottom="@dimen/scale"
-        android:layout_weight="@dimen/one"
-        android:textColor="@android:color/black"
-        android:fontFamily="@item/mainFont"
-        android:drawableLeft="@drawable/phone_icon"
-        android:drawablePadding="@dimen/nine"
-        android:singleLine="true"
-        android:gravity="center"
-        android:text="650-555-5555"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -54,12 +40,27 @@
         android:layout_marginBottom="@dimen/scale"
         android:layout_weight="@dimen/one"
         android:textColor="@android:color/black"
-        android:fontFamily="@item/mainFont"
+        android:fontFamily="sans-serif"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="@dimen/nine"
+        android:singleLine="true"
+        android:gravity="center"
+        android:autoLink="phone"
+        android:text="@string/text2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/zero"
+        android:layout_marginLeft="@dimen/scale"
+        android:layout_marginBottom="@dimen/scale"
+        android:layout_weight="@dimen/one"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
         android:drawableLeft="@drawable/web"
         android:drawablePadding="@dimen/nine"
-        android:singleLine="true"
         android:gravity="center"
-        android:text="www.udacity.com"
+        android:autoLink="web"
+        android:text="@string/text3"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -68,14 +69,12 @@
         android:layout_marginLeft="@dimen/scale"
         android:layout_marginBottom="@dimen/scale"
         android:textColor="@android:color/black"
-        android:fontFamily="@item/mainFont"
+        android:fontFamily="sans-serif"
         android:drawableLeft="@drawable/location"
         android:drawablePadding="@dimen/nine"
         android:singleLine="true"
         android:gravity="center"
-        android:text="2465 Latham St,Mountain View, CA 94043"
+        android:autoLink="map"
+        android:text="@string/text4"
         />
-
-
-
 </LinearLayout>
